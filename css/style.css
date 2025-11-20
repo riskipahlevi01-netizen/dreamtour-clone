@@ -1,0 +1,828 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+    border-bottom: 1px dashed white;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+/*.navbar-brand img{
+            width: 20%;
+            }*/
+/*.navbar-brand {
+            padding: 0px;
+            }
+            .navbar-brand>img {
+            height: 100%;
+            padding: 15px;
+            width: auto;
+        }*/
+.navbar-collapse ul li .nav-link {
+    color: #fff !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: white;
+}
+
+
+.container-fluid {
+    /*--background-color: #F5F5F5; --*/
+    background-image: url("https://dreamtour.co/asset/odyssey/images/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+
+}
+
+.wthreelocationsaits h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.tabel-umroh {
+    font-size: 13px;
+    color: white !important;
+}
+
+.agilefooterwthree {
+    padding: 50px 0;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+.agilefooterwthree-grid h4 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.agilefooterwthree-grid ul li {
+    display: block;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.agilefooterwthree-grid ul {
+    padding-left: 0;
+    font-size: 13px;
+}
+
+.agilefooterwthree-grid ul li a {
+    color: #ffff;
+}
+
+.agilefooterwthree-grid ul li a:hover {
+    color: #E91E63;
+}
+
+.agilefooterwthree-grid3 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+address {
+    margin-bottom: 0;
+}
+
+.sticky-top {
+    /* padding: 15px;*/
+    background-color: #20345c;
+
+}
+
+img.logo-navbar {
+    width: 15rem !important;
+    height: 4rem !important;
+}
+
+li {
+    margin-right: 5px;
+}
+
+.vtimer {
+    color: #ffad4d;
+    font-weight: bold;
+}
+
+.newprice {
+    background-color: #ffad4d;
+    color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 20px;
+    background-color: #25d366;
+    color: #FFF !important;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    opacity: 0.8;
+}
+
+
+.my-float {
+    margin-top: 16px;
+}
+
+a.float:hover {
+    color: black !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+
+.navbar {
+    padding-right: 5em;
+}
+
+.nav-item {
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    h5 {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    .cardx {
+        padding: 0.5px;
+    }
+
+    .card-title {
+        margin-bottom: 0.3rem;
+    }
+
+    .btn {
+        padding: 1 4;
+        font-size: 10px;
+    }
+
+    .navbar {
+        padding-right: 0em;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+}
+
+#mydiv>.btn-default {
+    background: transparent;
+}
+
+section #services {
+    text-align: center;
+    transform: translatez(0);
+}
+
+section #services h2 {
+    margin: 80px 0px 40px;
+    color: #fff;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section #services li {
+    width: 120px;
+    height: 140px;
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+
+section #services li div {
+    width: 120px;
+    height: 120px;
+    color: #74d4b3;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 120px;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+section #services li a {
+    color: #fff;
+}
+
+section #services li div:hover {
+    transform: rotate(360deg);
+    border-radius: 100px;
+}
+
+section #services li span {
+    width: 120px;
+    height: 20px;
+    display: block;
+    padding: 15px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.credits a {
+    display: block;
+    text-align: center;
+    color: #74d4b3;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+    max-width: 300px;
+}
+
+
+/* Start gallery CSS */
+
+
+/* end gallery CSS */
+
+/*start testimonial css*/
+
+#carousel-inner {
+    padding: 0 10%;
+}
+
+.carousel-indicators li {
+    margin-top: 10px;
+    background-color: #ccc;
+    /* warna default bullet */
+}
+
+.carousel-indicators .active {
+    background-color: #007bff;
+    /* warna biru saat aktif */
+}
+
+
+/*css testimoni end*/
+
+/* css kelebihan kami */
+
+.gallery {
+    margin: 0 0;
+    text-align: center;
+    width: 90%;
+}
+
+figure {
+    /* border: 10px solid #DADCDB;*/
+    margin: 2px 2px;
+    padding: 0;
+}
+
+figure.image {
+    display: inline-block;
+    position: relative;
+}
+
+figure img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+figcaption {
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: white;
+
+    padding: .2em 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+figcaption span {
+    font-size: 14px;
+}
+
+/* Common style */
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    /* margin: 10px 1%;
+            min-width: 320px;
+            max-width: 480px;
+            max-height: 360px;
+            width: 48%; */
+    height: auto;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption>a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+.grid figure h2 span {
+    font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+    margin: 0;
+}
+
+.grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+/* //////// */
+
+figure.effect-apollo {
+    background: #3498db;
+}
+
+figure.effect-apollo img {
+    opacity: 0.95;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
+}
+
+figure.effect-apollo figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    content: '';
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+}
+
+figure.effect-apollo p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 3em;
+    padding: 0 1em;
+    max-width: 150px;
+    border-right: 4px solid #fff;
+    text-align: right;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-apollo h2 {
+    text-align: left;
+}
+
+figure.effect-apollo:hover img {
+    opacity: 0.6;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+figure.effect-apollo:hover figcaption::before {
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+}
+
+figure.effect-apollo:hover p {
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+/* css kelebihan kami */
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 40%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    /* height: 150px; */
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    /* top: 15px; */
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 70%;
+    }
+}
+
+/* CSS KELEBIHAN KAMI END */
+
+
+/* CAPFIG CSS START */
+#image {
+    max-width: 100%;
+    height: auto;
+
+}
+
+#figureimgcaption {
+    /* width: 50%; */
+    position: relative;
+    display: flex;
+    /* min-width: 300px; */
+    margin: 0;
+
+}
+
+@media (max-width:333px) {
+    #figureimgcaption {
+        width: 50%;
+        position: relative;
+        display: flex;
+        min-width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #img-caption {
+
+        font-size: 0.5rem !important;
+
+    }
+}
+
+#img-caption {
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.8);
+    Color: white;
+}
+
+/* CAPFIG CSS END */
+
+/* scroll icon start */
+@media only screen and (min-width: 992px) {
+    .scroll {
+        margin-top: 350px;
+        width: 80px;
+        height: 80px;
+        border: 4px solid white;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 100px;
+        right: 70px;
+        animation: down 1.5s infinite;
+        -webkit-animation: down 1.5s infinite;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 18px;
+            left: 21px;
+            width: 28px;
+            height: 28px;
+            border-left: 4px solid white;
+            border-bottom: 4px solid white;
+            transform: rotate(-45deg);
+        }
+    }
+
+    @keyframes down {
+        0% {
+            transform: translate(0);
+        }
+
+        20% {
+            transform: translateY(15px);
+        }
+
+        40% {
+            transform: translate(0);
+        }
+    }
+
+    @-webkit-keyframes down {
+        0% {
+            transform: translate(0);
+        }
+
+        20% {
+            transform: translateY(15px);
+        }
+
+        40% {
+            transform: translate(0);
+        }
+    }
+}
+
+
+/* scroll icon end */
+
+
+.instagram-wrapper {
+    background: #FFF;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 1px;
+    max-width: 540px;
+    min-width: 326px;
+    padding: 0;
+    width: calc(100% - 2px);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.user-avatar {
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 14px;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-placeholder,
+.info-placeholder {
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    height: 14px;
+}
+
+.name-placeholder {
+    width: 100px;
+    margin-bottom: 6px;
+}
+
+.info-placeholder {
+    width: 60px;
+}
+
+.post-content {
+    padding: 19% 0;
+    text-align: center;
+}
+
+.play-icon {
+    width: 50px;
+    height: 50px;
+    fill: #000;
+}
+
+.view-text {
+    color: #3897f0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 18px;
+}
+
+.interaction-icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+    align-items: center;
+}
+
+.icon-segment,
+.comment-icon,
+.arrow-icon {
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    height: 12.5px;
+    width: 12.5px;
+}
+
+.comment-icon {
+    transform: rotate(-45deg);
+}
+
+.arrow-icon {
+    width: 0;
+    height: 0;
+    border-top: 8px solid #F4F4F4;
+    border-right: 8px solid transparent;
+    transform: translateY(16px);
+}
+
+.post-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.post-placeholder {
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    height: 14px;
+    width: 224px;
+    margin-bottom: 6px;
+}
+
+.post-subtext {
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    height: 14px;
+    width: 144px;
+}
+
+.user-post-info {
+    color: #c9c8cd;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 8px;
+    text-align: center;
+    padding: 8px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-post-info a {
+    color: #c9c8cd;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
