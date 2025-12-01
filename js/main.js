@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       return "../../../";
     }
 
-    if (pathname.includes("/paket/")) {
+    if (pathname.includes("/paket/grup/")) {
       return "../../../";
     }
 
