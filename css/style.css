@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "/css/css?family=Poppins:300,400,500,600,700";
 
 body {
     font-family: "Poppins", sans-serif;
@@ -39,7 +39,7 @@ body {
 
 .container-fluid {
     /*--background-color: #F5F5F5; --*/
-    background-image: url("https://dreamtour.co/asset/odyssey/images/back.jpg");
+    background-image: url("/asset/odyssey/images/back.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -35,6 +35,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       return "../../";
     }
 
+    if (pathname.includes("/tour/")) {
+      return "../../../";
+    }
+
+    if (pathname.includes("/paket/")) {
+      return "../../../";
+    }
+
     if (pathname.includes("/hajj") ||
       pathname.includes("/paket") ||
       pathname.includes("/umroh") ||
