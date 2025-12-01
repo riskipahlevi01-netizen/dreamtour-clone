@@ -9,7 +9,7 @@
       "destination": "/tour/:slug.html"  
     },
      {
-      "source": "/paket?group=:slug",  
+      "source": "/paket/group=:slug",  
       "destination": "/paket/grup/:slug.html"  
     }
   ]
